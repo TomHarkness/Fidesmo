@@ -27,7 +27,7 @@ public class HelloFidesmoTest {
          CardChannel channel = card.getBasicChannel();
 
          // Build the AID and send "Select Applet" command
-         byte[] aid = decodeHex(aidPrefix + applicationId + aidSuffix);  
+          byte[] aid = decodeHex("A0000006170031FC2B9901");
          ResponseAPDU answer = channel.transmit(new CommandAPDU(0x00, 0xA4, 0x04, 0x00, aid));
          System.out.println("Answer to SELECT APDU: " + answer.toString());
          byte r[] = answer.getData();

@@ -1,4 +1,4 @@
-#Setup script for Fidesmo / Javacard Development under OS X
+    #Setup script for Fidesmo / Javacard Development under OS X
 #Add your Fidesmo developer ID and APP key below
 export FIDESMO_DEVELOPER=true
 export FIDESMO_APP_ID=

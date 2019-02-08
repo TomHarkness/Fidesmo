@@ -7,6 +7,9 @@ Contains both JCard kit 2.2.2 and 3.0.4 for working with Fidesmo products and th
 
 Simply import the project and buildfile in to intelliJ and things should work out of the box. The build.xml file needs some work and I will add a testing component that will run the final cap file through JCardSim asap.
 
+Prerequisites:
+
+- JDK version 8
 
 Setup:
 
