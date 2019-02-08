@@ -29,7 +29,7 @@ public class Sim {
         CommandAPDU commandAPDU = new CommandAPDU(0x00, 0x01, 0x00, 0x00);
         ResponseAPDU response = simulator.transmitCommand(commandAPDU);
 
-// 5. Check response status word
+// 5. Check response status word2
         int responseStatus = response.getSW();
         String responseDataAsString = new String(response.getData());
         System.out.println("Status: " + (responseStatus == 0x9000 ? "success": "error"));
