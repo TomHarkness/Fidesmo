@@ -222,7 +222,7 @@
   <target name="HelloFidesmo">
     <javacard jckit="${JC304}">
       <!-- HelloApplet -->
-      <cap output="out/cap/FidesmoExampleApplet.cap" sources="src/cardlet" fidesmoappid="31fc2b99" debug="true">
+      <cap output="out/production/Fidesmo/FidesmoExampleApplet.cap" sources="src/cardlet" fidesmoappid="31fc2b99" debug="true">
         <applet class="helloFidesmo.ExampleCardlet"/>
       </cap>
     </javacard>

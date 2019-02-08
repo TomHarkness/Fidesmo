@@ -20,7 +20,7 @@ public class Sim {
 
 // 2. Install applet
     AID appletAID = AIDUtil.create("F000000001");
-    simulator.installApplet(appletAID, Captive.class);
+    simulator.installApplet(appletAID, ExampleCardlet.class);
 
 // 3. Select applet
     simulator.selectApplet(appletAID);
