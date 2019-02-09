@@ -1,4 +1,4 @@
-# FidesmoOSX
+# Fidesmo JavaCard Build Environment
 Build environment for working with JavaCard for Fidesmo / VivoKey on OS X Using intelliJ IDE
 
 Should also work under windows as long as you change paths in the build.properties file.
