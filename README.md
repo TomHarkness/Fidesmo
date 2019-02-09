@@ -14,7 +14,7 @@ Prerequisites:
 Setup:
 
 1. Install IntelliJ IDE
-2. IMPORTANT! If you are running OS X. RENAME the IntelliJ App so that it is just calle "IntelliJ"
+2. IMPORTANT! If you are running OS X. RENAME the IntelliJ App so that it is just named "IntelliJ"
     This is important as otherwise paths get messed up and things don't work. The path in build.properties:
     idea.home=/Applications/IntelliJ.app/Contents
     is important from what I can tell and having spaces in the APP name freaks things out.
