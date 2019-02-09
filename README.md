@@ -41,7 +41,7 @@ There are three Run / Debug configurations
   </target>
 
 
-    The above target can be copied and modified for any new source applets to be compiled in to .cap files. I recommend sticking to the existing folder structue and adding a new folder under src for each new applet.
+   The above target can be copied and modified for any new source applets to be compiled in to .cap files. I recommend sticking to the existing folder structue and adding a new folder under src for each new applet.
 
  2. Simulate JavaCard
 
