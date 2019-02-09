@@ -29,7 +29,7 @@ There are three Run / Debug configurations
 
 1. Build Cap Files
 
-    This is an Ant task that will build a .cap file from a given targed defined in build.xml. In this case:
+This is an Ant task that will build a .cap file from a given targed defined in build.xml. In this case:
 
   <target name="HelloFidesmo">
     <javacard jckit="${JC304}">
@@ -41,13 +41,13 @@ There are three Run / Debug configurations
   </target>
 
 
-   The above target can be copied and modified for any new source applets to be compiled in to .cap files. I recommend sticking to the existing folder structue and adding a new folder under src for each new applet.
+The above target can be copied and modified for any new source applets to be compiled in to .cap files. I recommend sticking to the existing folder structue and adding a new folder under src for each new applet.
 
  2. Simulate JavaCard
 
-    This will compile your .java source against JCardSim, run it and show you in the output in the intelliJ terminal. The Sim.java file and Run task can be copied for new applets - making sure to change line 23 in Sim.Java to point to the new applet classname.
+This will compile your .java source against JCardSim, run it and show you in the output in the intelliJ terminal. The   Sim.java file and Run task can be copied for new applets - making sure to change line 23 in Sim.Java to point to the new applet classname.
 
  3. HelloFidesmo Test
 
-    For when you have installed the HelloFidesmo tutorial applet to a card / implant and want to run a test to see that everything is working.
+ For when you have installed the HelloFidesmo tutorial applet to a card / implant and want to run a test to see that everything is working.
 
