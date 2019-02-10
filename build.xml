@@ -136,7 +136,7 @@
   <taskdef name="javacard" classname="pro.javacard.ant.JavaCard" classpath="jcard_lib/ant-javacard.jar"/>
 
   <target name="HelloFidesmo">
-    <javacard jckit="${JC304}">
+    <javacard jckit="${JC222}">
       <!-- HelloApplet -->
       <cap output="out/production/Fidesmo/FidesmoExampleApplet.cap" sources="src/cardlet" fidesmoappid="31fc2b99" debug="true">
         <applet class="helloFidesmo.ExampleCardlet"/>
